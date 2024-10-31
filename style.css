@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #202020;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.logo{
+    width: auto;
+    height: 60px;
+    padding-right: 20px;
+}
+.schoolname{
+    padding-left: 18px;
+}
+ header h1{
+    color: #eb1717;
+    font-size: 40px;
+ }
+ header{
+    color: #d2cdcd;
+    font-weight: 400;
+ }
+ header h4{
+    font-family: 'Montserrat';
+ }
+ section{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%
+ }
+.container_1{
+    display: flex ;
+}
+.container_2 img{
+   width: 80vh;
+}
+ .container_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.pass h1 {
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+.pass a{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.next-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #af2929;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 53px;
+}
+ .container_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.pass {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;   
+    align-items: center;      
+    text-align: center;       
+    width: 80%;
+    margin-bottom: 40px;             
+}
+.pass h1 {
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+.pass .itms{
+    font-size: 18px;
+    margin-bottom: 30px; 
+    text-align: justify;
+}
+div .pass .agree{
+    font-size: 18px;
+    margin-top: 30px; 
+    text-align: justify;
+}
+.next-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #af2929;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 53px;
+}
+.pass .btns a{
+    gap: 2px;
+}
+.cont_2{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color: rgba(207, 207, 207, 0.85); 
+    border-radius: 1%;
+ }
+ .cont_2 form{
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+ form .input-infos{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .input-infos h2{
+    font-size: larger;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+ }
+ .container-first{
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    margin-top: 40px;   
+    margin-bottom: 40px;
+ }
+ .info{
+    display: flex;
+    justify-content: space-between;
+ }
+ .info input{
+    width: 50vh;
+    height: 40px;
+ }
+ .lastName input{
+    margin-left: 14px;
+ }
+ .lastName label{
+    margin-left: 14px;
+ }
+form .sbmt{
+    color: #ffffff;
+    background-color: #eb1717;
+    width: 118px;
+    height: 42px;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Montserrat';
+    margin-top: 50px;
+}
+.cont_2 h1{
+    text-align: center;
+}
+.info h1{
+    text-align: center;
+    font-size: 38px;
+}
+.cont_2 form .table2{ 
+    padding: 20px;
+}
+.cont_2 form .table2 input{
+    height: 30px;
+    width: 10vh;
+    box-sizing: border-box;
+}
+.headadmin{
+    display: flex;
+    flex-direction: column;
+}
+.appa-info{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+    width: 25%; /* Each card will take 30% of the width */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Makes padding and border part of the width */
+}
+.card img {
+    width: 60%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 16px 0;
+}
+form .info ._table2{
+    margin-top: 18px;
+}
